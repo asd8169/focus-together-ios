@@ -21,7 +21,8 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "1.7.0"),
         .package(url: "https://github.com/layoutBox/FlexLayout.git", from: "2.0.10"),
-        .package(url: "https://github.com/layoutBox/PinLayout", from: "1.10.5")
+        .package(url: "https://github.com/layoutBox/PinLayout", from: "1.10.5"),
+        .package(url: "https://github.com/Moya/Moya.git", from: "15.0.3")
     ]
 )
 

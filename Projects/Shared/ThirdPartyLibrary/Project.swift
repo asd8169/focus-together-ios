@@ -19,6 +19,7 @@ let project = Project.makeModule(
             dependencies: [
                 .SPM.FlexLayout,
                 .SPM.PinLayout,
+                .SPM.Moya
             ]
         )
     ]
